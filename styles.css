@@ -1,0 +1,51 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8aeca1;
+
+}
+
+/* Navigation styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.menu-item a:hover {
+    color: #ff6347;
+}
+
+/* Content styles */
+.content {
+    padding-top: 60px;
+}
+
+section {
+    padding: 60px 20px;
+    height: 100vh;
+}
